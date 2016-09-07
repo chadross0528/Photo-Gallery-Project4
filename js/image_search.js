@@ -34,7 +34,7 @@
 				}
 
 				// Show / hide
-				img.element.style.visibility = index === -1 ? 'hidden' : '';
+				img.element.parentNode.parentNode.style.display = index === -1 ? 'none' : '';
 
 		});
 	}
