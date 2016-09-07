@@ -1,0 +1,68 @@
+
+
+/*****************************
+		 Search Box
+******************************/
+header, section {
+	width: 100%;
+}
+
+.header {
+	width: 100%;
+	position: fixed;
+	padding: 0px;
+	margin: 0px;
+	background-color: white;
+	height: 74px;
+}
+
+input[type="text"] {
+	width: 460px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+	font-size: 18pt;
+}
+
+
+
+/*****************************
+		Image Container
+******************************/
+
+.container {
+	width: 980px;
+	margin: 0 auto;
+	padding-top: 74px;
+}
+
+.imgHolder{
+	width: 185px;
+	display: block;
+	padding: 10px 30px;
+	margin: 0px;
+	float: left;
+}
+
+.imgHolder img {
+	width: 185px;
+}
+
+li {
+	list-style: none;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+/*****************************
+		  Clear Fix
+******************************/
+
+.cf::after {
+    content: "";
+    display: table;
+    clear: both;
+}
